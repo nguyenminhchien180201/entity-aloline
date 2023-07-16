@@ -1,0 +1,26 @@
+export enum GROUP_CONDITION_JOIN_TYPE {
+  TEXT,
+  CHECKBOX,
+}
+
+export enum GROUP_MEMBER_PERMISSION {
+  ADMIN,
+  MANAGER,
+  COLLABORATORS,
+  USER,
+}
+
+export enum GROUP_PERMISSION {
+  PRIVATE,
+  PUBLIC,
+}
+
+export enum GROUP_VIEW {
+  HIDE,
+  SHOW,
+}
+
+export enum GROUP_STATUS {
+  LOCK,
+  UNLOCK,
+}
